@@ -40,17 +40,41 @@
         grid-auto-rows: 400px;
         grid-row-gap: 30px;
         color: white;
+        position: relative;
+        
+        .arrow {
+            color: red;
+            transform: scaleX(1.4);
+            position: absolute;
+            z-index: 80;
+            cursor: pointer;
+            top: 22rem;
+            left: 18rem;
+
+            &:hover {
+                // z-index: 200;
+            }
+
+
+        }
+        
 
         .cards1 {
             background-color: rgb(150, 206, 171);
             box-shadow: 0px 4px 64px #ccc;
-            padding: 10rem;
+            padding: 9rem;
             position: relative;
+            transition: all .3s ease-in-out;
+            z-index: 90;
+            // transform: scaleX(.9);
+         
 
             &:hover {
-                // transform: scaleX(1.1);
-                // position: relative;
-                // z-index: 100;
+                transform: scaleX(1.01);
+                background-color: #ececec;
+                border-bottom: 2px solid orchid;
+                position: relative;
+                z-index: 30;
 
             }
         }
