@@ -6,6 +6,20 @@ import { FiChevronDown } from 'react-icons/fi'
 const Header = () => {
     return (
         <div className='header'> 
+         {/* <nav className='nav'>
+                    <div className='listFlex'>
+                        <a href='/' activeClassname='active'>
+                           <li>Home</li> 
+                        </a>
+                        
+                        <li>About</li>
+                        <li>Success Stories</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Contact Us</li>                 
+                    </div>
+                    
+                </nav> */}
             <picture>
                 {/* <source media="(max-width: 500px)" srcSet={carousel1B}/>
                 <source media="(max-width: 1080px)" srcSet={carousel1A}/> */}
@@ -35,7 +49,10 @@ const Header = () => {
                 <FiChevronDown className='fontArrow'/>
                 <nav className='nav'>
                     <div className='listFlex'>
-                        <li>Home</li>
+                        <a href='/' activeClassname='active'>
+                           <li>Home</li> 
+                        </a>
+                        
                         <li>About</li>
                         <li>Success Stories</li>
                         <li>Blog</li>
