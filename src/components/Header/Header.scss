@@ -2,14 +2,15 @@
     // color: red;
     color: white;
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 
     .banner {
         position: absolute;
         top: -3rem;
         left: 0;
         width: 100%;
-        height: 110%;
+        height: auto;
         z-index: -4;
     }
 
@@ -25,7 +26,7 @@
 
     .headerText {
         text-align: center;
-        padding: 1rem;
+        padding: 1rem 0 0;
 
         h1 {
             padding: 14rem 0 0;
@@ -37,11 +38,10 @@
             text-align: center;
             margin: 0 auto;
             font-size: .975rem;
-            padding: 1rem 0 0
+            padding: 1rem 0 13rem;
         }
 
         .fontArrow {
-            margin: 15rem 0 0;
             font-size: 2.1rem;
             animation: App-logo-spin infinite 2s linear;
 
@@ -63,6 +63,23 @@
         font-size: 10px;
         fill: white;
         width: 8rem;
+    }
+
+    .nav {
+        border-top: 1px solid rgb(133, 133, 133);
+        margin: 2rem 0;
+
+        .listFlex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: .5rem;
+            
+            li {
+                list-style: none;
+                padding: 1rem 2rem
+            }
+        }
     }
 
 }

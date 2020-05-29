@@ -33,6 +33,17 @@ const Header = () => {
                 <h1>Innovating For a Greater Africa</h1>
                 <p>Softcom is a thinking company on a mission to connect people and businesses with meaningful innovation, at scale.</p>
                 <FiChevronDown className='fontArrow'/>
+                <nav className='nav'>
+                    <div className='listFlex'>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Success Stories</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Contact Us</li>                 
+                    </div>
+                    
+                </nav>
             </div>
         </div>
     )
