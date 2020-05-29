@@ -25,11 +25,44 @@
 
     .headerText {
         text-align: center;
+        padding: 1rem;
+
+        h1 {
+            padding: 14rem 0 0;
+            font-size: 3.32rem;
+        }
+
+        p {
+            width: 576px;
+            text-align: center;
+            margin: 0 auto;
+            font-size: .975rem;
+            padding: 1rem 0 0
+        }
+
+        .fontArrow {
+            margin: 15rem 0 0;
+            font-size: 2.1rem;
+            animation: App-logo-spin infinite 2s linear;
+
+        }
+
+        @keyframes App-logo-spin {
+            0% {
+                transform: translateY(0)
+            }
+            50% {
+                transform: translateY(40%)
+            }
+            100% {
+                transform: translateY(0)
+            }
+        }
     }
     .sofcomSVG {
         font-size: 10px;
         fill: white;
-        width: 12rem;
-        
+        width: 8rem;
     }
+
 }

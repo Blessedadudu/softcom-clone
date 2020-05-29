@@ -1,6 +1,7 @@
 import React from 'react';
 import banner from '../../assets/bannerDesktop.jpg';
-import './Header.scss'
+import './Header.scss';
+import { FiChevronDown } from 'react-icons/fi'
 
 const Header = () => {
     return (
@@ -31,6 +32,7 @@ const Header = () => {
                 </svg>
                 <h1>Innovating For a Greater Africa</h1>
                 <p>Softcom is a thinking company on a mission to connect people and businesses with meaningful innovation, at scale.</p>
+                <FiChevronDown className='fontArrow'/>
             </div>
         </div>
     )
