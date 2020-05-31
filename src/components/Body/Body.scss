@@ -41,6 +41,7 @@
         grid-row-gap: 30px;
         color: white;
         position: relative;
+        padding: 0 0 6rem;
         
         .arrow {
             color: rgb(62, 142, 189);
@@ -70,9 +71,7 @@
                 color: black
             }
 
-
-
-
+            
         }
         
 
@@ -85,6 +84,8 @@
             z-index: 40;
             color: black;
             transform: scale(.98, 1);
+
+            
 
 
 
@@ -140,8 +141,9 @@
             background-color: rgb(54, 56, 55);
             box-shadow: 0px 4px 64px #ccc;
             position: relative;
-            z-index: 20;
-            transform: translate(-3%, 0)
+            // z-index: 42;
+            transform: translate(-3%, 0);
+            margin-left: -3rem;
         }
         .cards3 {
             background-color: rgb(11, 70, 32);
