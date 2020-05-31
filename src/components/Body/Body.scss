@@ -35,7 +35,7 @@
 
     .bodycardGrid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
         // grid-gap: 10px;
         grid-auto-rows: 400px;
         grid-row-gap: 30px;
@@ -43,23 +43,33 @@
         position: relative;
         
         .arrow {
-            color: red;
+            color: rgb(62, 142, 189);
             transform: scaleX(1.4);
             position: absolute;
-            z-index: 80;
+            z-index: 35;
             cursor: pointer;
             top: 22rem;
             left: 18rem;
 
             &:hover {
-                z-index: 200;
+                z-index: 60;
             }
 
             &:hover ~ .cards1 {
-               background-color: #d8d4d4;
+               background-color: #f3f1f1;
                border-bottom: 2px solid orchid;
-               transform: scale(1.01);
+               transform: scale(1.03, 1.03);
+               color: black
             }
+
+            &:hover ~ .cards1 img {
+                filter: grayscale(0)
+            }
+
+            &:hover ~ .cards1 > * {
+                color: black
+            }
+
 
 
 
@@ -72,9 +82,28 @@
             padding: 1.5rem;
             position: relative;
             transition: all .3s ease-in-out;
-            z-index: 90;
+            z-index: 40;
             color: black;
-            // transform: scaleX(.9);
+            transform: scale(.98, 1);
+
+
+
+            &:hover {
+                transform: scale(1.03, 1.03);
+                background-color: #f3f1f1;
+                border-bottom: 2px solid orchid;
+                position: relative;
+                z-index: 30;
+
+            }
+
+            &:hover > * {
+                color: black
+            }
+
+            &:hover img {
+                filter: grayscale(0%);
+            }
 
             h3 {
                 color: #333;
@@ -82,27 +111,37 @@
                 font-size: 1.42rem;
             }
 
+            h4 {
+                color: #333;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 1.3925;
+                padding: 0 0 1rem 0;
+            }
+
             img {
                 display: block;
                 height: 15px;
                 margin: .5rem 0 0 auto;
+                filter: grayscale(100%);
+                -webkit-backface-visibility: hidden; /* Safari */
+                backface-visibility: hidden;
+            }
+
+            p {
+                line-height: 27px;
+                font-size: 15.025px;
+                color: #707070;
+                font-weight: 400;
             }
          
-
-            &:hover {
-                transform: scaleX(1.01);
-                background-color: #eeeeee;
-                border-bottom: 2px solid orchid;
-                position: relative;
-                z-index: 30;
-
-            }
         }
         .cards2 {
             background-color: rgb(54, 56, 55);
             box-shadow: 0px 4px 64px #ccc;
             position: relative;
-            z-index: 1;
+            z-index: 20;
+            transform: translate(-3%, 0)
         }
         .cards3 {
             background-color: rgb(11, 70, 32);
