@@ -4,9 +4,9 @@ import passId from '../../assets/passid.svg';
 import koya from '../../assets/koya.svg';
 import eyowo from '../../assets/eyowo.svg';
 import databeaver from '../../assets/databeaver.svg';
-
-
-
+import excellency from '../../assets/excellency.jpeg'
+import findyourself from '../../assets/find-yourselves.png'
+import sdgtech from '../../assets/SDG-technology.jpg'
 
 
 const Body = () => {
@@ -67,9 +67,21 @@ const Body = () => {
                     <p>See how Softcom is delivering positive impact to clients and communities in Africa through technology.</p>
                 </div>
                 <div className='section2Cards'>
-                    <div className='cards2Main'>card1</div>
-                    <div className='cards2Main'>card2</div>
-                    <div className='cards2Main'>card3</div>
+                    <div className='cards2Main'>
+                        <img alt='excellency' src={excellency} />
+                        <h2>Achieving Operational Excellence with a Vendor Intimacy Strategy</h2>
+                        <p>10 things we consider before developing vendor relationships.</p>
+                    </div>
+                    <div className='cards2Main'>
+                        <img alt='findyourself' src={findyourself} className='findyourself'/>
+                        <h2>Achieving Operational Excellence with a Vendor Intimacy Strategy</h2>
+                        <p>10 things we consider before developing vendor relationships.</p>
+                    </div>
+                    <div className='cards2Main'>
+                        <img alt='sdg-tech' src={sdgtech}  />
+                        <h2>Achieving Operational Excellence with a Vendor Intimacy Strategy</h2>
+                        <p>10 things we consider before developing vendor relationships.</p>
+                    </div>
                 </div>
                 
                 
