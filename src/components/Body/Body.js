@@ -18,8 +18,9 @@ const Body = () => {
             </div>
             <div className='bodycardGrid'>
                 <>
-                    <div className='arrow'><span> &#8594; </span></div>
+                    
                     <div className='cards1'>
+                        <div className='arrow'><span> &#8594; </span></div>
                         <img src={passId} alt='pass ID'/>
                         <h3>Identity</h3>
                         <h4>Enroll & Verify Anyone</h4>
@@ -65,38 +66,17 @@ const Body = () => {
                     </div>
                     <p>See how Softcom is delivering positive impact to clients and communities in Africa through technology.</p>
                 </div>
-                
-                
-            </div>
-            <div className='bodycardGrid'>
-                <div className='cards1'>
-                        <h3>MTN</h3>
-                        <h4>Enroll & Verify Anyone</h4>
-                        <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
-                </div> 
-                <div className='cards1'>
-                        <div className='arrow'><span> &#8594; </span></div>
-                        <img src={eyowo} alt='pass ID'/>
-                        <h3>Identity</h3>
-                        <h4>Enroll & Verify Anyone</h4>
-                        <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
+                <div className='section2Cards'>
+                    <div className='cards2Main'>card1</div>
+                    <div className='cards2Main'>card2</div>
+                    <div className='cards2Main'>card3</div>
                 </div>
-                <div className='cards1'>
-                    <div className='arrow'><span> &#8594; </span></div>
-                    <img src={eyowo} alt='pass ID'/>
-                    <h3>Identity</h3>
-                    <h4>Enroll & Verify Anyone</h4>
-                    <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
-                </div> 
-                <div className='cards1'>
-                    <div className='arrow'><span> &#8594; </span></div>
-                    <img src={eyowo} alt='pass ID'/>
-                    <h3>Identity</h3>
-                    <h4>Enroll & Verify Anyone</h4>
-                    <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
-                </div> 
+                
+                
             </div>
-            <div className='bodyText'>
+
+            {/* Section 3 */}
+             <div className='bodyText'>
                 <h2>Our Focus</h2>
                 <p>Following our work over the years, we have identified four key areas that would enable people and businesses thrive in Africa. Namely: Identity, Learning, Payment and Data.</p>
             </div>

@@ -47,14 +47,10 @@
             color: rgb(62, 142, 189);
             transform: scaleX(1.4);
             position: absolute;
-            z-index: 35;
             cursor: pointer;
             top: 22rem;
-            left: 18rem;
-
-            &:hover {
-                z-index: 60;
-            }
+            left: 17rem;
+            opacity: 0;
 
             &:hover ~ .cards1 {
                background-color: #f3f1f1;
@@ -81,14 +77,11 @@
             padding: 1.5rem;
             position: relative;
             transition: all .3s ease-in-out;
-            z-index: 40;
             color: black;
             transform: scale(.98, 1);
+            margin-right: -1rem;
 
-            
-
-
-
+        
             &:hover {
                 transform: scale(1.03, 1.03);
                 background-color: #f3f1f1;
@@ -97,6 +90,14 @@
                 z-index: 30;
 
             }
+
+
+            &:hover .arrow {
+                opacity: 1;
+                color:red
+            }
+
+
 
             &:hover > * {
                 color: black
@@ -122,7 +123,7 @@
 
             img {
                 display: block;
-                height: 15px;
+                height: 35px;
                 margin: .5rem 0 0 auto;
                 filter: grayscale(100%);
                 -webkit-backface-visibility: hidden; /* Safari */
@@ -200,4 +201,17 @@
             // margin-left: auto;
         }
     }
+
+    .section2Cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        // grid-gap: 30px 5px;
+        grid-column-gap: 30px;
+
+        .cards2Main {
+            background-color: rgb(30, 71, 105);
+        }
+    }
+
+    
 }
