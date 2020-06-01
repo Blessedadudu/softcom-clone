@@ -70,9 +70,7 @@ const Body = () => {
             </div>
             <div className='bodycardGrid'>
                 <div className='cards1'>
-                        <div className='arrow'><span> &#8594; </span></div>
-                        <img src={eyowo} alt='pass ID'/>
-                        <h3>Identity</h3>
+                        <h3>MTN</h3>
                         <h4>Enroll & Verify Anyone</h4>
                         <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
                 </div> 

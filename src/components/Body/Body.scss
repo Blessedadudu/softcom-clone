@@ -160,7 +160,7 @@
         align-items: center;
 
         button {
-            padding: .1rem 1.5rem .5rem 1rem; 
+            padding: .7rem 5rem .7rem 1rem; 
             background-color: #0097cd;
             border-radius: 39px;
             border: none;
@@ -170,16 +170,30 @@
             font-size: 15px;
             transition: all .3s ease-in;
             cursor: pointer;
+            position: relative;
             
             &:hover {
                 background-color: #038bbd; 
-                color: white
+                color: white;
+            }
+
+            &:hover span {
+                right: 20px
             }
 
             span {
-                font-size: 25px;
+                position: absolute;
+                right: 30px;
+                top: 2px;
+                font-size: 27px;
                 color: white;
                 padding: 0 0 0 2.8rem;
+                transition: all .2s ease-in;
+
+
+                &:hover {
+                    right: 20px;
+                }
 
             }
 
