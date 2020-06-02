@@ -257,14 +257,15 @@
         }
     }
 
-    .experienceGrid {
-        display: grid;  
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    .experienceFlex {
+        display: flex;
 
         .experienceImage {
-            width: 70%;
+            width: 40%;
             overflow: hidden;
             position: relative;
+            margin: 0 2.5rem 0 0; 
+            // flex: 0 0 40%;
 
             img {
                 width: 145%;
@@ -295,8 +296,8 @@
             }
         .experienceCard {
             align-self: center;
-            margin-left: -9rem;
-            width: 83%;
+            width: 60%;
+            
 
             p {
                 color: #767676;
@@ -329,4 +330,19 @@
     }
 
     
+}
+
+@media only screen and (max-width: 700px) {
+    .body {
+         .experienceFlex {
+        display: flex;
+        flex-direction: column;
+
+        .experienceImage, .experienceCard {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+    }
+   
 }

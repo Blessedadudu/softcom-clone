@@ -93,7 +93,7 @@ const Body = () => {
                 <h2>Our Thinking</h2>
                 <p>We are committed to consistently offering transformational values to organizations.</p>
             </div>
-            <div className='experienceGrid'>
+            <div className='experienceFlex'>
                 <div className='experienceImage'>
                    <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
                    <div className='imageOverlay'></div>
@@ -102,7 +102,7 @@ const Body = () => {
                 <div className='experienceCard'>
                     <p>DEVX BLOG</p>
                     <h4>Confidence in Engineering</h4>
-                    <p className='lastChild'>Combining business insights, sophisticated technology and multi-industry inexperience, we plan and support the growth for businesses.</p>
+                    <p className='lastChild'>Combining business insights, sophisticated technology and multi-industry <br/> inexperience, we plan and support the growth for businesses.</p>
                     <button>Visit Blog <span>&raquo;</span></button> 
                 </div>
             </div>
