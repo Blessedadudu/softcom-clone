@@ -88,14 +88,20 @@ const Body = () => {
 
             {/* Section 3 */}
              <div className='bodyText'>
-                <h2>Our Focus</h2>
-                <p>Following our work over the years, we have identified four key areas that would enable people and businesses thrive in Africa. Namely: Identity, Learning, Payment and Data.</p>
+                <h2>Our Thinking</h2>
+                <p>We are committed to consistently offering transformational values to organizations.</p>
             </div>
-            <div className='bodycardGrid'>
-                <div className='cards1'>Card 1</div>
-                <div className='cards2'>Card 1</div>
-                <div className='cards3'>Card 1</div>
-                <div className='cards4'>Card 1</div>
+            <div className='experienceGrid'>
+                <div className='experienceImage'>
+                   <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
+                   <div className='imageOverlay'></div>
+                </div>
+                <div className='experienceCard'>
+                    <p>DEVX BLOG</p>
+                    <h4>Confidence in Engineering</h4>
+                    <p>Combining business insights, sophisticated technology and multi-industry inexperience, we plan and support the growth for businesses.</p>
+                    <button>Visit Blog <span>&raquo;</span></button> 
+                </div>
             </div>
         </body>
     )

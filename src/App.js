@@ -8,8 +8,11 @@ function App() {
     <div className="App">
       {/* <h1>Welcome to Softcom Clone</h1> */}
       <Header/>
-      <Body/>        
+      <Body/>   
+      
+           
     </div>
+    
   );
 }
 
