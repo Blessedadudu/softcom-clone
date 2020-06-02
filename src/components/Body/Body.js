@@ -61,7 +61,7 @@ const Body = () => {
             <div className='bodyText'>
                 <div>
                     <div className='focusFlex'>
-                        <h2>Our Focus</h2>
+                        <h2>Our Blog</h2>
                         <button>View all <span>&raquo;</span></button> 
                     </div>
                     <p>See how Softcom is delivering positive impact to clients and communities in Africa through technology.</p>
@@ -74,16 +74,15 @@ const Body = () => {
                     </div>
                     <div className='cards2Main'>
                         <img alt='findyourself' src={findyourself} className='findyourself'/>
-                        <h2>Achieving Operational Excellence with a Vendor Intimacy Strategy</h2>
-                        <p>10 things we consider before developing vendor relationships.</p>
+                        <h2>Find yourself - The Gift of Time.</h2>
+                        <p>Time is a gift we should all be grateful for. It’s a gift because we can’t extend or reduce it,...</p>
                     </div>
                     <div className='cards2Main'>
                         <img alt='sdg-tech' src={sdgtech}  />
-                        <h2>Achieving Operational Excellence with a Vendor Intimacy Strategy</h2>
-                        <p>10 things we consider before developing vendor relationships.</p>
+                        <h2>The Role Of Technology In Achieving The SDGs</h2>
+                        <p>Technology and innovation are central to the implementation of the 2030 Agenda and the Sustainable Development Goals (SDGs).</p>
                     </div>
-                </div>
-                
+                </div>    
                 
             </div>
 
