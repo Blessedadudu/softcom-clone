@@ -3,7 +3,7 @@
     padding: 4rem;
     height: 100%;
     overflow: hidden;
-
+    
     .bodyText {
 
         h2 {
@@ -157,47 +157,52 @@
         }
     }
 
+    %Btn {
+        padding: .7rem 5rem .7rem 1rem; 
+        background-color: #0097cd;
+        border-radius: 39px;
+        border: none;
+        outline: none;
+        margin: .2rem 0 0 auto;
+        color: rgba(255, 255, 255, 0.945);
+        font-size: 15px;
+        transition: all .3s ease-in;
+        cursor: pointer;
+        position: relative;
+        
+        &:hover {
+            background-color: #038bbd; 
+            color: white;
+        }
+
+
+        &:hover span {
+            right: 20px
+        }
+
+        span {
+            position: absolute;
+            right: 30px;
+            top: 2px;
+            font-size: 27px;
+            color: white;
+            padding: 0 0 0 2.8rem;
+            transition: all .2s ease-in;
+
+
+            &:hover {
+                right: 20px;
+            }
+
+        }
+    }
     .focusFlex {
         display: flex;
         align-items: center;
 
+        
         button {
-            padding: .7rem 5rem .7rem 1rem; 
-            background-color: #0097cd;
-            border-radius: 39px;
-            border: none;
-            outline: none;
-            margin: .2rem 0 0 auto;
-            color: rgba(255, 255, 255, 0.945);
-            font-size: 15px;
-            transition: all .3s ease-in;
-            cursor: pointer;
-            position: relative;
-            
-            &:hover {
-                background-color: #038bbd; 
-                color: white;
-            }
-
-            &:hover span {
-                right: 20px
-            }
-
-            span {
-                position: absolute;
-                right: 30px;
-                top: 2px;
-                font-size: 27px;
-                color: white;
-                padding: 0 0 0 2.8rem;
-                transition: all .2s ease-in;
-
-
-                &:hover {
-                    right: 20px;
-                }
-
-            }
+            @extend %Btn;
 
             // margin-left: auto;
         }
@@ -208,6 +213,7 @@
         grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
         grid-gap: 30px;
         padding-bottom: 9rem;
+        // width: 80%;
 
         .cards2Main {
             background-color: rgb(255, 255, 255);
@@ -278,12 +284,45 @@
                 background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0px, transparent 36%, transparent 65%, rgba(0, 0, 0, 0.9))
             }
 
-
-        }
-        
-
+           
+        } 
+        .devxlogo {
+                // position: absolute;
+                z-index: 400;
+                width: 5rem;
+                height: 1.5rem;
+                
+            }
         .experienceCard {
             align-self: center;
+            margin-left: -9rem;
+            width: 83%;
+
+            p {
+                color: #767676;
+                font-size: .975rem;
+                letter-spacing: 2px;
+                line-height: 1.9;
+                padding: .7rem 0;
+            }
+
+            .lastChild {
+                font-size: 16px;
+                color: #707070;
+                font-weight: 400;
+                letter-spacing: 0px;
+            }
+
+            h4 {
+                font-size: 1.62rem;
+                line-height: 1.3925;
+                color: #333
+            }
+
+            button {
+                @extend %Btn;
+            }
+
         }
 
 

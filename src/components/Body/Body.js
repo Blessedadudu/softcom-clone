@@ -4,9 +4,11 @@ import passId from '../../assets/passid.svg';
 import koya from '../../assets/koya.svg';
 import eyowo from '../../assets/eyowo.svg';
 import databeaver from '../../assets/databeaver.svg';
-import excellency from '../../assets/excellency.jpeg'
-import findyourself from '../../assets/find-yourselves.png'
-import sdgtech from '../../assets/SDG-technology.jpg'
+import excellency from '../../assets/excellency.jpeg';
+import findyourself from '../../assets/find-yourselves.png';
+import sdgtech from '../../assets/SDG-technology.jpg';
+import devxlogo from '../../assets/devx-logo.png';
+
 
 
 const Body = () => {
@@ -95,11 +97,12 @@ const Body = () => {
                 <div className='experienceImage'>
                    <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
                    <div className='imageOverlay'></div>
+                   {/* <img src={devxlogo} alt='dex-logo' className='devxlogo'/> */}
                 </div>
                 <div className='experienceCard'>
                     <p>DEVX BLOG</p>
                     <h4>Confidence in Engineering</h4>
-                    <p>Combining business insights, sophisticated technology and multi-industry inexperience, we plan and support the growth for businesses.</p>
+                    <p className='lastChild'>Combining business insights, sophisticated technology and multi-industry inexperience, we plan and support the growth for businesses.</p>
                     <button>Visit Blog <span>&raquo;</span></button> 
                 </div>
             </div>
