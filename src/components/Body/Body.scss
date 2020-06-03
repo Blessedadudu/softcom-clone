@@ -47,26 +47,29 @@
         .arrow {
             color: rgb(62, 142, 189);
             transform: scaleX(1.4) translate(80%, 1900%);
-            // position: absolute;
-            // cursor: pointer;
+            cursor: pointer;
             // top: 22rem;
             // left: 17rem;
-            opacity: 1;
+            opacity: 0;
 
-            &:hover ~ .cards1 {
-               background-color: #f3f1f1;
-               border-bottom: 2px solid orchid;
-               transform: scale(1.03, 1.03);
-               color: black
+            &:hover {
+                color: cadetblue;
             }
 
-            &:hover ~ .cards1 img {
-                filter: grayscale(0)
-            }
+            // &:hover ~ .cards1 {
+            //    background-color: #f3f1f1;
+            //    border-bottom: 2px solid orchid;
+            //    transform: scale(1.03, 1.03);
+            //    color: black
+            // }
 
-            &:hover ~ .cards1 > * {
-                color: black
-            }
+            // &:hover ~ .cards1 img {
+            //     filter: grayscale(0)
+            // }
+
+            // &:hover ~ .cards1 > * {
+            //     color: black
+            // }
 
             
         }
@@ -95,7 +98,7 @@
 
             &:hover .arrow {
                 opacity: 1;
-                color:red
+                color:rgb(48, 49, 48)
             }
 
 

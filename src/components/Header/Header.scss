@@ -1,5 +1,5 @@
 .header {
-    // color: red;
+    color: red;
     color: white;
     position: relative;
     height: 100vh;
@@ -13,6 +13,11 @@
         height: auto;
         z-index: -4;
     }
+
+    // .banner.all {
+    //     color: red !important;
+    //     width: 10%;
+    // }
 
     .imageOverlay {
         position: absolute;
