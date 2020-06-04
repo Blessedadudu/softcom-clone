@@ -8,6 +8,21 @@ import excellency from '../../assets/excellency.jpeg';
 import findyourself from '../../assets/find-yourselves.png';
 import sdgtech from '../../assets/SDG-technology.jpg';
 import devxlogo from '../../assets/devx-logo.png';
+import arm from '../../assets/arm.jpg';
+import boi from '../../assets/boi.jpg';
+import cocacola from '../../assets/cocacola.jpg';
+import enyo from '../../assets/enyo.jpg';
+import gino from '../../assets/gino.jpg';
+import honywell from '../../assets/honeywell.jpg';
+import learnafrica from '../../assets/learn-africa.jpg';
+import microsoft from '../../assets/microsoft.jpg';
+import mtn from '../../assets/mtn.jpg';
+import nibss from '../../assets/nibss.jpg';
+import rockefeller from '../../assets/rockefeller.jpg';
+import samsung from '../../assets/samsung.jpg';
+
+
+
 
 
 
@@ -105,6 +120,25 @@ const Body = () => {
                     <p className='lastChild'>Combining business insights, sophisticated technology and multi-industry <br/> inexperience, we plan and support the growth for businesses.</p>
                     <button>Visit Blog <span>&raquo;</span></button> 
                 </div>
+            </div>
+
+            {/* section 4 */}
+
+            <div className='section-4'>
+                <img src={arm} alt='arm'/>
+                <img src={boi} alt='boi'/>
+                <img src={cocacola} alt='cocacola'/>
+                <img src={enyo} alt='enyo'/>
+                <img src={gino} alt='gino'/>
+                <img src={honywell} alt='honeywell'/>
+                <img src={learnafrica} alt='learnafrica'/>
+                <img src={microsoft} alt='microsoft'/>
+                <img src={mtn} alt='mtn'/>
+                <img src={nibss} alt='nibss'/>
+                <img src={rockefeller} alt='rockefeller'/>
+                <img src={samsung} alt='samsung'/>
+
+
             </div>
         </body>
     )
