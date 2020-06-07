@@ -137,8 +137,15 @@ const Body = () => {
                 <img src={nibss} alt='nibss'/>
                 <img src={rockefeller} alt='rockefeller'/>
                 <img src={samsung} alt='samsung'/>
+            </div>
 
+            {/* section 5 */}
 
+            <div className='section-5'>
+                <div className='section-5__image-container'>
+                    <img src='https://softcom.ng/uploads/home/eyowoweb-banner.jpg' alt='lightskin girl' className='section-5__image-container__img'/>
+                </div>
+                
             </div>
         </body>
     )

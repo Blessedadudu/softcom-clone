@@ -1,11 +1,10 @@
 .body {
     background-color: #fbfbfb;
-    padding: 4rem;
     height: 100%;
     overflow: hidden;
     
     .bodyText {
-
+        padding: 6rem 8rem 0;
         h2 {
             display: inline-block;
             color: #333;
@@ -42,7 +41,8 @@
         grid-row-gap: 30px;
         color: white;
         position: relative;
-        padding: 0 0 6rem;
+        padding: 0 8rem 6rem ;
+
         
         .arrow {
             color: rgb(62, 142, 189);
@@ -213,7 +213,7 @@
 
     .section2Cards {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(344px, 390px));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 30px;
         padding-bottom: 9rem;
         // width: 80%;
@@ -262,6 +262,7 @@
 
     .experienceFlex {
         display: flex;
+        padding: 0rem 8rem;
 
         .experienceImage {
             width: 40%;
@@ -332,20 +333,65 @@
 
     }
 
+    .section-4 {
+        margin: 10rem 0 0;
+        width: 100%;
+        padding: 8rem;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        // padding
+
+        img {
+            padding: 2rem;
+        }
+    }
+
+    .section-5 {
+        padding:  4rem 8rem;
+        text-align: center;
+
+
+        // width: 
+
+        &__image-container {
+                height: 60vh;
+                overflow: hidden;
+
+                &__img {
+                    width: 90%;
+                    transform: scale(1.1, 1.2) translateY(7%);
+                    height: 80vh
+        
+            }
+        }
+        
+    }
     
 }
 
 @media only screen and (max-width: 700px) {
     .body {
          .experienceFlex {
-        display: flex;
-        flex-direction: column;
+            display: flex;
+            flex-direction: column;
 
-        .experienceImage, .experienceCard {
-            width: 100%;
-            margin-bottom: 1rem;
+            .experienceImage, .experienceCard {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
         }
-    }
+
+        .bodyText {
+            padding: 3rem 1rem;
+        }
+
+        .bodycardGrid {
+            padding:  2rem
+        }
     }
    
 }
