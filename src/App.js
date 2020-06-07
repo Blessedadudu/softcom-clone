@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <h1>Welcome to Softcom Clone</h1> */}
       <Header/>
       <Body/>
+      <Footer/>
       <h1>Hellooooooooooo</h1>  
       
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-right">
