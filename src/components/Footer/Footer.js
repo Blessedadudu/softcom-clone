@@ -4,10 +4,10 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <footer className='footer'>
-            <h3>Subscribe to our business insight newsletters</h3>
+            <h4 className='footer__heading'>Subscribe to our business insight newsletters</h4>
             <div>
-                <input type='text' /> 
-                <button>Send</button>
+                <input type='email' placeholder='Enter email address' className='footer__input'/> 
+                <button className='footer__button'>Send <span>&raquo;</span></button>
             </div>
             <div className='footer__grid'>
                 <div>

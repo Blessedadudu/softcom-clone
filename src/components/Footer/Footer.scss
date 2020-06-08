@@ -1,5 +1,59 @@
 .footer{
+    background-color: #f9f9f9;
     padding: 8rem;
+
+    &__heading {
+        padding: 1rem 0;
+    }
+
+    &__input {
+        padding: .7rem 10rem .7rem 1.3rem;
+        border-radius: 30px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        outline: none;
+    }
+
+    &__button {
+        padding: .7rem 5rem .7rem 1rem; 
+        background-color: #0097cd;
+        border-radius: 39px;
+        border: none;
+        outline: none;
+        margin: .2rem 0 0 auto;
+        color: rgba(255, 255, 255, 0.945);
+        font-size: 15px;
+        transition: all .3s ease-in;
+        cursor: pointer;
+        position: relative;
+        
+        &:hover {
+            background-color: #038bbd; 
+            color: white;
+        }
+
+
+        &:hover span {
+            right: 20px
+        }
+
+        span {
+            position: absolute;
+            right: 30px;
+            top: 2px;
+            font-size: 27px;
+            color: white;
+            padding: 0 0 0 2.8rem;
+            transition: all .2s ease-in;
+
+
+            &:hover {
+                right: 20px;
+            }
+
+        }
+    }
+
 
     &__grid {
         display: grid;
