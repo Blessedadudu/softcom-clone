@@ -19,7 +19,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
+                <div className='footer__grid-two'>
                     <h4>Softcom</h4>
                     <p>About us</p>
                     <p>Success stories</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <p>Careers</p>
                 </div>
 
-                <div>
+                <div className='footer__grid-three'>
                     <h4>More...</h4>
                     <p>Privacy Policy</p>
                     <p>Blog</p>
