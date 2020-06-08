@@ -5,13 +5,13 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <h4 className='footer__heading'>Subscribe to our business insight newsletters</h4>
-            <div>
+            <div className='footer__input-flex'>
                 <input type='email' placeholder='Enter email address' className='footer__input'/> 
                 <button className='footer__button'>Send <span>&raquo;</span></button>
             </div>
             <div className='footer__grid'>
-                <div>
-                    <h4>Headquarters</h4>
+                <div className='footer__grid-one'>
+                    <h4 className='footer__grid-one__heading'>Headquarters</h4>
                     <p>15b Sasegbon street, Ikeja GRA, Ikeja, Lagos, Nigeria.</p>
                     <ul>
                         <li href='!#'>01-700-1515</li>

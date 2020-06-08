@@ -6,6 +6,10 @@
         padding: 1rem 0;
     }
 
+    &__input-flex {
+        display: flex;
+    }
+
     &__input {
         padding: .7rem 10rem .7rem 1.3rem;
         border-radius: 30px;
@@ -15,14 +19,14 @@
     }
 
     &__button {
-        padding: .7rem 5rem .7rem 1rem; 
+        padding: .7rem 6rem .6rem 1rem; 
+        margin-left: 4rem;
         background-color: #0097cd;
         border-radius: 39px;
         border: none;
         outline: none;
-        margin: .2rem 0 0 auto;
         color: rgba(255, 255, 255, 0.945);
-        font-size: 15px;
+        font-size: 17px;
         transition: all .3s ease-in;
         cursor: pointer;
         position: relative;
@@ -40,8 +44,8 @@
         span {
             position: absolute;
             right: 30px;
-            top: 2px;
-            font-size: 27px;
+            top: 0px;
+            font-size: 30px;
             color: white;
             padding: 0 0 0 2.8rem;
             transition: all .2s ease-in;
@@ -59,6 +63,16 @@
         display: grid;
         grid-template-columns: repeat(12, 2fr);
         grid-gap: 30px;
+        padding: 2.5rem 0 1rem;
+    }
+
+    &__grid-one {
+
+        &__heading {
+            padding: 0 0 .5rem;
+            line-height: 1.3925;
+            font-family: "soleil",
+        }
     }
 }
 
