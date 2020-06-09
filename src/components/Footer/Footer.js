@@ -36,7 +36,7 @@ const Footer = () => {
                     <p>DevX Blog<span>X</span></p>
                 </div>
 
-                <div>
+                <div className='footer__grid-4'>
                     <ul>
                         <li href='!#' className='facebook'><FaFacebook/></li>
                         <li href='!#' className='twitter'><FaTwitterSquare/></li>
