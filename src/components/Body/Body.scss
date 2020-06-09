@@ -353,20 +353,75 @@
     .section-5 {
         padding:  4rem 8rem;
         text-align: center;
+        position: relative;
+
+
+        &__payment {
+            position: absolute;
+            top: 10rem;
+            z-index: 900;
+            text-align: left;
+            padding: 0 0 0 4rem;
+
+            p {
+                color: #080705;
+                max-width: 350px;
+                font-size: .975rem;
+                line-height: 1.8;
+                padding: 0 0 1rem 0;
+
+            }
+
+            h1 {
+                color: #080705;
+                line-height: 1.3925;
+                font-size: 1.96rem;
+                padding: 0 0 1rem 0;
+            }
+
+
+
+
+            button {
+                @extend %Btn;
+                background-color: #c4702e;
+                padding-right: 4rem;
+                
+                span {
+                    top: 3.2px;
+                }
+
+                &:hover {
+                    background-color: #bd6726;
+                }
+            }
+        }
 
 
         // width: 
 
         &__image-container {
-                height: 60vh;
+                height: 65vh;
                 overflow: hidden;
+                position: relative;
+
 
                 &__img {
                     width: 90%;
-                    transform: scale(1.1, 1.2) translateY(7%);
-                    height: 80vh; 
+                    transform: scale(1.1, 1.5) translate(-1%, 16%);
+                    height: 100%; 
         
             }
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100%;
+            z-index: 300;
+            background-image: linear-gradient(to right, #f0dec3 0%, rgba(232,221,204,0.5) 50%, rgba(245,245,245,0.2) 100%)
         }
         
     }
