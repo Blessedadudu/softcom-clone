@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+  z-index: -4;
+}
+
 
 // @media (prefers-reduced-motion: no-preference) {
 //   .App-logo {

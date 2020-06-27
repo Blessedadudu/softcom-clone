@@ -1,17 +1,90 @@
 .header {
-    color: red;
     color: white;
     position: relative;
     height: 100vh;
-    overflow: hidden;
+    z-index: 100;
+    // overflow: hidden;
+
+    %listafter {
+        &:first-child {
+            color: #ffb600;
+        }
+
+        &:first-child::after {
+            border-bottom: 7px solid #ffb600;
+            border-radius: 5px;
+            width: 3rem;
+            height: 5px;
+            left: 30px;
+            top: 53px;
+            transform: rotate(180deg);
+        }
+
+        &:first-child::after {
+            content: "";
+            position: absolute;
+        }
+
+        &:hover {
+            color: #ffb600;
+        }
+    }
+
+    .scrollNav {
+        position: fixed;
+        width: 100vw;
+        z-index: -3;
+        color: red;
+        top: 0;
+        padding: 1rem;
+        background-color: rgb(37, 3, 3);
+        display: flex;
+        justify-content: space-between;
+
+        .sofcomSVG {
+            font-size: 10px;
+            fill: #0096cdb6;
+            width: 8rem;
+            cursor: pointer;
+        }
+
+        .listFlex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding-right: 4rem;
+
+            li {
+                padding-left: 2rem;
+                white-space: nowrap;
+                position: relative;
+                cursor: pointer;
+                transition: all .2s ease-in;
+
+                @extend %listafter;
+
+                &:first-child::after {
+                    top: 31px;
+                }
+            }
+
+        }
+         
+
+         h1 {
+             font-size: 3rem;
+         }
+    }
+    
 
     .banner { 
         position: absolute;
-        top: -3rem;
+        // top: -3rem;
         left: 0;
         width: 100%;
-        height: auto;
-        z-index: -4;
+        height: 100%;
+        z-index: -2;
     }
 
     // .banner.all {
@@ -35,7 +108,7 @@
 
         h1 {
             padding: 12.4rem 0 0;
-            font-size: 3.32rem;
+            font-size: 3.1rem;
         }
 
         p {
@@ -43,16 +116,16 @@
             text-align: center;
             margin: 0 auto;
             font-size: .975rem;
-            padding: 1rem 0 13.5rem;
+            padding: 1rem 0 13.7rem;
         }
 
         .fontArrow {
             font-size: 2.1rem;
-            animation: App-logo-spin infinite 2s linear;
+            animation: bounce infinite 2s linear;
 
         }
 
-        @keyframes App-logo-spin {
+        @keyframes bounce {
             0% {
                 transform: translateY(0)
             }
@@ -96,31 +169,46 @@
                 transition: all .2s ease-in;
                 cursor: pointer;
                 position: relative;
-
-                &:first-child {
-                    color: #ffb600;
-                }
-
-                &:first-child::after {
-                    border-bottom: 7px solid #ffb600;
-                    border-radius: 5px;
-                    width: 3rem;
-                    height: 5px;
-                    left: 30px;
-                    top: 53px;
-                    transform: rotate(180deg);
-                }
-
-                &:first-child::after {
-                    content: "";
-                    position: absolute;
-                }
-
-                &:hover {
-                    color: #ffb600;
-                }
+                
+                @extend %listafter;
             }
         }
     }
 
 } 
+
+@media only screen and (max-width: 700px) {
+    .header {
+        height: 100vh;
+        overflow: hidden;
+    
+        .banner { 
+            transform: translateX(-10%);
+            width: 170%;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header {
+        height: 100vh;
+        overflow: hidden;
+    
+        .banner { 
+            // transform: translateX(-20%);
+            width: 140%;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        height: 100vh;
+        overflow: hidden;
+    
+        .banner { 
+            transform: translateX(-10%);
+            width: 220%;
+        }
+    }
+}
