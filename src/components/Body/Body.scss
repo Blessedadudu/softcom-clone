@@ -73,6 +73,18 @@
 
             
         }
+
+        .cardEyowo {
+
+            &:hover {
+                transform: scale(1.03, 1.03);
+                background-color: #f3f1f1;
+                border-bottom: 2px solid #c9874b;
+                position: relative;
+                z-index: 30;
+
+            }
+        }
         
 
         .cards1 {
@@ -84,12 +96,12 @@
             color: black;
             transform: scale(.98, 1);
             margin-right: -1rem;
+            cursor: pointer;
 
         
             &:hover {
                 transform: scale(1.03, 1.03);
                 background-color: #f3f1f1;
-                border-bottom: 2px solid orchid;
                 position: relative;
                 z-index: 30;
 
@@ -142,6 +154,39 @@
             }
          
         }
+
+        .cardEyowo {
+
+            &:hover {
+                border-bottom: 2px solid #c9874b;
+
+            }
+        }
+
+        .cardBeaver {
+            &:hover {
+                border-bottom: 2px solid #1e87f0;
+
+            }
+        }
+        .cardKoya {
+            &:hover {
+                border-bottom: 2px solid #1e87f0;
+
+            }
+        }
+
+        .cardPass {
+            &:hover {
+                border-bottom: 2px solid rgb(20, 66, 20);
+
+            }
+
+            img {
+                width: 5rem;
+            }
+        }
+        
         .cards2 {
             background-color: rgb(54, 56, 55);
             box-shadow: 0px 4px 64px #ccc;
@@ -259,6 +304,7 @@
             }
         }
     }
+
 
     .experienceFlex {
         display: flex;
@@ -399,7 +445,7 @@
 
 
         // width: 
-
+ 
         &__image-container {
                 height: 65vh;
                 overflow: hidden;

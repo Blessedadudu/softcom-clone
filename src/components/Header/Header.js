@@ -24,7 +24,7 @@ const Header = () => {
                 {/* <source media="(max-width: 500px)" srcSet={carousel1B}/>
                 <source media="(max-width: 1080px)" srcSet={carousel1A}/> */}
                 <img src={banner} alt='caroimage' className='banner'/>
-            </picture>
+            </picture> 
             <div className='imageOverlay'></div>
             <div className='headerText'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.52 50.72" className='sofcomSVG'>

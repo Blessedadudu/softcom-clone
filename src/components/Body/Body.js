@@ -23,9 +23,6 @@ import samsung from '../../assets/samsung.jpg';
 
 
 
-
-
-
 const Body = () => {
     return (
         <body className='body'>
@@ -34,9 +31,41 @@ const Body = () => {
                 <p>Following our work over the years, we have identified four key areas that would enable people and businesses thrive in Africa. Namely: Identity, Learning, Payment and Data.</p>
             </div>
             <div className='bodycardGrid'>
+
+                <>  
+                    <div className='cards1 cardEyowo'>
+                        <div className='arrow'><span> &#8594; </span></div>
+                        <img src={eyowo} alt='pass ID'/>
+                        <h3>Payment</h3>
+                        <h4>A Bank On Every Phone</h4>
+                        <p>Innovation to drive inclusion by bringing a bank to every phone, enabling people and businesses to receive, spend, save, borrow, and manage money.
+                        </p>
+                    </div>   
+                </>
+                <>
+                    <div className='cards1 cardBeaver'>
+                        <div className='arrow'><span> &#8594; </span></div>
+                        <img src={databeaver} alt='pass ID'/>
+                        <h3>Data</h3>
+                        <h4>Insights For Decision Making</h4>
+                        <p>Innovation to enable people and businesses to collect accurate data online and offline across industry and customer segments for smarter decisions.
+                        </p>
+                    </div>   
+                </>
                 <>
                     
-                    <div className='cards1'>
+                    <div className='cards1 cardKoya'>
+                        <div className='arrow'><span> &#8594; </span></div>
+                        <img src={koya} alt='pass ID'/>
+                        <h3>Learning</h3>
+                        <h4>Quality Learning For All</h4>
+                        <p>Innovation to aid learning distribution, mobility, and management to improve learning experience and outcomes.
+                        </p>
+                    </div>   
+                </>
+                <>
+                    
+                    <div className='cards1 cardPass'>
                         <div className='arrow'><span> &#8594; </span></div>
                         <img src={passId} alt='pass ID'/>
                         <h3>Identity</h3>
@@ -44,34 +73,7 @@ const Body = () => {
                         <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
                     </div>
                 </>
-                <>
-                    
-                    <div className='cards1'>
-                        <div className='arrow'><span> &#8594; </span></div>
-                        <img src={koya} alt='pass ID'/>
-                        <h3>Identity</h3>
-                        <h4>Enroll & Verify Anyone</h4>
-                        <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
-                    </div>   
-                </>
-                <>  
-                    <div className='cards1'>
-                        <div className='arrow'><span> &#8594; </span></div>
-                        <img src={eyowo} alt='pass ID'/>
-                        <h3>Identity</h3>
-                        <h4>Enroll & Verify Anyone</h4>
-                        <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
-                    </div>   
-                </>
-                <>
-                    <div className='cards1'>
-                        <div className='arrow'><span> &#8594; </span></div>
-                        <img src={databeaver} alt='pass ID'/>
-                        <h3>Identity</h3>
-                        <h4>Enroll & Verify Anyone</h4>
-                        <p>We believe that no society can truly grow her community without first identifying the people that belong to the community. Identity is the bedrock to planning, financial inclusion and targeting.</p>
-                    </div>   
-                </>
+
             </div>
 
             {/* section 2  */}
@@ -104,24 +106,23 @@ const Body = () => {
             </div>
 
             {/* Section 3 */}
-             <div className='bodyText'>
-                <h2>Our Thinking</h2>
-                <p>We are committed to consistently offering transformational values to organizations.</p>
-            </div>
-            <div className='experienceFlex'>
-                <div className='experienceImage'>
-                   <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
-                   <div className='imageOverlay'></div>
-                   {/* <img src={devxlogo} alt='dex-logo' className='devxlogo'/> */}
+                <div className='bodyText'>
+                    <h2>Our Thinking</h2>
+                    <p>We are committed to consistently offering transformational values to organizations.</p>
                 </div>
-                <div className='experienceCard'>
-                    <p>DEVX BLOG</p>
-                    <h4>Confidence in Engineering</h4>
-                    <p className='lastChild'>Combining business insights, sophisticated technology and multi-industry <br/> inexperience, we plan and support the growth for businesses.</p>
-                    <button>Visit Blog <span>&raquo;</span></button> 
+                <div className='experienceFlex'>
+                    <div className='experienceImage'>
+                    <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
+                    <div className='imageOverlay'></div>
+                    {/* <img src={devxlogo} alt='dex-logo' className='devxlogo'/> */}
+                    </div>
+                    <div className='experienceCard'>
+                        <p>DEVX BLOG</p>
+                        <h4>Confidence in Engineering</h4>
+                        <p className='lastChild'>Combining business insights, sophisticated technology and multi-industry <br/> inexperience, we plan and support the growth for businesses.</p>
+                        <button>Visit Blog <span>&raquo;</span></button> 
+                    </div>
                 </div>
-            </div>
-
             {/* section 4 */}
 
             <div className='section-4'>
@@ -141,7 +142,7 @@ const Body = () => {
 
             {/* section 5 */}
 
-            <div className='section-5'>
+            <div className='section-5'> 
                 <div className='section-5__image-container'>
                     <img src='https://softcom.ng/uploads/home/eyowoweb-banner.jpg' alt='lightskin girl' className='section-5__image-container__img'/>
                     <div className='image-overlay'></div>
