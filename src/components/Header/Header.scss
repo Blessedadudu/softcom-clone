@@ -34,13 +34,15 @@
         position: fixed;
         width: 100vw;
         z-index: -3;
-        color: red;
+        color: rgba(8, 7, 5, 0.633);
         top: 0;
         padding: 1rem;
-        background-color: rgb(37, 3, 3);
+        background-color: rgba(255, 255, 255, .9);
         display: flex;
         justify-content: space-between;
 
+
+        
         .sofcomSVG {
             font-size: 10px;
             fill: #0096cdb6;
@@ -66,6 +68,10 @@
 
                 &:first-child::after {
                     top: 31px;
+                }
+
+                &:hover {
+                    color: rgba(8, 7, 5, 0.577);
                 }
             }
 
