@@ -7,7 +7,6 @@ import databeaver from '../../assets/databeaver.svg';
 import excellency from '../../assets/excellency.jpeg';
 import findyourself from '../../assets/find-yourselves.png';
 import sdgtech from '../../assets/SDG-technology.jpg';
-import devxlogo from '../../assets/devx-logo.png';
 import arm from '../../assets/arm.jpg';
 import boi from '../../assets/boi.jpg';
 import cocacola from '../../assets/cocacola.jpg';
