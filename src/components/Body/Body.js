@@ -20,6 +20,16 @@ import mtn from '../../assets/mtn.jpg';
 import nibss from '../../assets/nibss.jpg';
 import rockefeller from '../../assets/rockefeller.jpg';
 import samsung from '../../assets/samsung.jpg';
+import isn from '../../assets/isn.png';
+import jmsf from '../../assets/jmsf.png';
+import mountain from '../../assets/mountaintop.png';
+import redeemer from '../../assets/reedemer.png';
+import patec from '../../assets/patec.png';
+import spar from '../../assets/spar.png';
+
+
+
+
 
 
 
@@ -126,18 +136,32 @@ const Body = () => {
             {/* section 4 */}
 
             <div className='section-4'>
-                <img src={arm} alt='arm'/>
-                <img src={boi} alt='boi'/>
-                <img src={cocacola} alt='cocacola'/>
-                <img src={enyo} alt='enyo'/>
-                <img src={gino} alt='gino'/>
-                <img src={honywell} alt='honeywell'/>
-                <img src={learnafrica} alt='learnafrica'/>
-                <img src={microsoft} alt='microsoft'/>
-                <img src={mtn} alt='mtn'/>
-                <img src={nibss} alt='nibss'/>
-                <img src={rockefeller} alt='rockefeller'/>
-                <img src={samsung} alt='samsung'/>
+                <div className='bodyText'>
+               
+
+                    <h2> Driving Growth For Businesses</h2>
+                    <p>We are proud to have deployed our technology to help businesses achieve growth</p>
+                </div>
+                <div className='section-4__image'>
+                    <img src={arm} alt='arm'/>
+                    <img src={boi} alt='boi'/>
+                    <img src={cocacola} alt='cocacola'/>
+                    <img src={enyo} alt='enyo'/>
+                    <img src={gino} alt='gino'/>
+                    <img src={honywell} alt='honeywell'/>
+                    <img src={isn} alt='isn'/>
+                    <img src={jmsf} alt='jmsf'/>
+                    <img src={learnafrica} alt='learnafrica'/>
+                    <img src={microsoft} alt='microsoft'/>
+                    <img src={mountain} alt='mountain'/>
+                    <img src={mtn} alt='mtn'/>
+                    <img src={nibss} alt='nibss'/>
+                    <img src={patec} alt='patec'/>
+                    <img src={redeemer} alt='redeemer'/>
+                    <img src={rockefeller} alt='rockefeller'/>
+                    <img src={samsung} alt='samsung'/>
+                    <img src={spar} alt='spar'/>
+                </div>
             </div>
 
             {/* section 5 */}
