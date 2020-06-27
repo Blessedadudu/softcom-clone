@@ -7,7 +7,7 @@
         padding: 1rem 0;
     }
 
-    &__input-flex {
+    &__input-flex { 
         display: flex;
     }
 
@@ -62,7 +62,7 @@
 
     &__grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 30px;
         padding: 2.5rem 0 1rem;
     }
@@ -199,3 +199,26 @@
 
 
 
+@media only screen and (max-width: 1100px) {
+    .footer{
+        background-color: #f9f9f9;
+        padding: 4rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer{
+        background-color: #f9f9f9;
+        padding: 4rem 2rem;
+
+
+        &__input {
+            padding: .7rem 6rem .7rem 1.3rem;
+            border-radius: 30px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            outline: none;
+        }
+
+    }
+}

@@ -40,7 +40,7 @@ const Footer = () => {
                                 <line x1="10" y1="14" x2="21" y2="3"></line>
                             </svg>
                         </span>
-                    </p>
+                    </p> 
                 </div>
 
                 <div className='footer__grid-4'>
