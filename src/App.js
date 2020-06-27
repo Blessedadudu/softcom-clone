@@ -10,7 +10,10 @@ function App() {
       {/* <h1>Welcome to Softcom Clone</h1> */}
       <Header/>
       <Body/>
-      <Footer/>                          
+      <Footer/>  
+
+    
+                     
     </div>
     
   );
