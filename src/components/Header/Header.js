@@ -26,7 +26,7 @@ const Header = () => {
                 <img src={banner} alt='caroimage' className='banner'/>
             </picture> 
             <div className='imageOverlay'></div>
-            <div className='headerText'>
+            <div className='headerText'> 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.52 50.72" className='sofcomSVG'>
                 <g>
                     <polygon points="104.22 16.29 104.22 16.29 104.23 16.29 104.22 16.29" ></polygon>

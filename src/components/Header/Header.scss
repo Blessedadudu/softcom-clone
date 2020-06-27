@@ -5,7 +5,7 @@
     height: 100vh;
     overflow: hidden;
 
-    .banner {
+    .banner { 
         position: absolute;
         top: -3rem;
         left: 0;
@@ -43,7 +43,7 @@
             text-align: center;
             margin: 0 auto;
             font-size: .975rem;
-            padding: 1rem 0 13rem;
+            padding: 1rem 0 13.5rem;
         }
 
         .fontArrow {
@@ -93,9 +93,31 @@
             li {
                 list-style: none;
                 padding: 1rem 2rem;
+                transition: all .2s ease-in;
+                cursor: pointer;
+                position: relative;
 
                 &:first-child {
-                    color: #ffb600
+                    color: #ffb600;
+                }
+
+                &:first-child::after {
+                    border-bottom: 7px solid #ffb600;
+                    border-radius: 5px;
+                    width: 3rem;
+                    height: 5px;
+                    left: 30px;
+                    top: 53px;
+                    transform: rotate(180deg);
+                }
+
+                &:first-child::after {
+                    content: "";
+                    position: absolute;
+                }
+
+                &:hover {
+                    color: #ffb600;
                 }
             }
         }
