@@ -15,10 +15,19 @@ const Header = () => {
             <div className='headerText'> 
                 <div className='headerFlex'>
                     <input type="checkbox" className="nav_checkbox" id="navi-toggle"/> 
-
+                  
                     <label for="navi-toggle" className="nav_button">
                         <span className="iconz">&nbsp;</span>
                     </label>
+                      <div className='nav_dropdown'>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
 
                     {/* <div class="navigation__background">&nbsp;</div>  */}
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.52 50.72" className='sofcomSVG'>

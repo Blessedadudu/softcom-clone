@@ -323,6 +323,40 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                position: relative;
+
+                .nav_dropdown {
+                    position: absolute;
+                    top: 4rem;
+                    left: 4rem;
+                    background-color: #0097cd;
+                    border-radius: 5px;
+                    width: 70vw;
+
+                    ul {
+                        list-style: none;
+
+                        li {
+                            padding: 1rem 1rem;
+                            text-align: left;
+                            transition: all .2s ease-in-out;
+                            cursor: pointer;
+                            
+                            &:hover {
+                                color: #ffb600;  
+                            }
+                        }
+
+                        li:first-child {
+                            color: #ffb600; 
+                        }
+
+                        li:not(:last-child) {
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        }
+
+                    }
+                }
 
                 .sofcomSVG {
                     width: 6rem;
