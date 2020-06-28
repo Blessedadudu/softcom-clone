@@ -170,7 +170,7 @@ const Body = () => {
                     <img src='https://softcom.ng/uploads/home/eyowoweb-banner.jpg' alt='lightskin girl' className='section-5__image-container__img'/>
                     <div className='image-overlay'></div>
                 </div>
-                <div className='section-5__payment'>
+                <div className='section-5__payment'> 
                     <h1>Make Payments. <br/>However, Whenever</h1>
                     <p>Send, receive and pay bills with just your phone number.<br/>
                         Carry-out transactions with or without a bank account, whether online or offline.</p>

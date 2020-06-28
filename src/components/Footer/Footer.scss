@@ -222,11 +222,55 @@
 
         &__button {
             padding: .7rem 4rem .6rem 1rem; 
-            margin-left: 1rem;
+            margin-left: 1.5rem;
             background-color: #0097cd;
             border-radius: 39px;
             border: none;
         }
 
     }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .footer{
+        background-color: #f9f9f9;
+        padding: 4rem 1rem;
+
+
+        &__input {
+            padding: .7rem 1rem .7rem 1rem;
+            border-radius: 30px;
+            font-size: 12px;
+            border: 1px solid #ddd;
+            outline: none;
+        }
+
+        // &__button {
+        //     padding: .7rem 3rem .6rem 1rem; 
+        //     margin-left: 1rem;
+        //     background-color: #0097cd;
+        //     border-radius: 39px;
+        //     border: none;
+        //     font-size: 16px;
+
+        //     span {
+        //         position: absolute;
+        //         right: 20px;
+        //         top: 0px;
+        //         font-size: 30px;
+        //         color: white;
+        //         padding: 0 0 0 2.8rem;
+        //         transition: all .2s ease-in;
+    
+    
+        //         &:hover {
+        //             right: 20px;
+        //         }
+    
+        //     }
+        // }
+
+    }
+
 }
