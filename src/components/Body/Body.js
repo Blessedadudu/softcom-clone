@@ -121,7 +121,7 @@ const Body = () => {
                 </div>
                 <div className='experienceFlex'>
                     <div className='experienceImage'>
-                    <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
+                        <img src='https://softcom.ng/uploads/home/devx.jpg' alt='background'/> 
                     <div className='imageOverlay'></div>
                     {/* <img src={devxlogo} alt='dex-logo' className='devxlogo'/> */}
                     </div>

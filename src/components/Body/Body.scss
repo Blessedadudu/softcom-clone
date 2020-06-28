@@ -496,7 +496,7 @@
                 overflow: hidden;
                 position: relative;
                 margin: 0 2.5rem 0 0; 
-                // flex: 0 0 40%;
+                flex: 0 0 40%;
 
                 img {
                     width: 145%;
@@ -720,5 +720,30 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .body {
+        .bodyText {
+            padding: 3rem 1rem 0;
+        }
+        .experienceFlex {
+           display: flex;
+           flex-direction: column;
+
+           .experienceImage, .experienceCard {
+
+                    width: 105%;
+
+                    img {
+                        width: 200%;
+                        transform: translateX(-16%);
+                        margin: auto;
+                        height: 440px;
+                    }
+           }
+       }
     }
 }
