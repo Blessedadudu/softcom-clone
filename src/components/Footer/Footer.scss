@@ -213,11 +213,19 @@
 
 
         &__input {
-            padding: .7rem 6rem .7rem 1.3rem;
+            padding: .7rem 2rem .7rem 1.3rem;
             border-radius: 30px;
             font-size: 14px;
             border: 1px solid #ddd;
             outline: none;
+        }
+
+        &__button {
+            padding: .7rem 4rem .6rem 1rem; 
+            margin-left: 1rem;
+            background-color: #0097cd;
+            border-radius: 39px;
+            border: none;
         }
 
     }
