@@ -740,6 +740,16 @@
 @media only screen and (max-width: 400px) {
 
     .body {
+
+        .section-5 {
+            padding:  4rem 1rem; 
+    
+    
+            &__image-container {
+    
+                height: 38vh;
+            }
+        }
         .bodyText {
             padding: 3rem 1rem 0;
         }
