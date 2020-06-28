@@ -114,10 +114,10 @@
 
         .headerSVG {
             display: none;
-            padding-right: 1rem;
+            padding-right: 1.2rem;
 
             svg {
-                margin-left: 1rem;
+                margin-left: 2rem;
                 transition: all .2s ease-in;
                 cursor: pointer;
 
@@ -129,24 +129,20 @@
             }
 
             svg:first-child {
-                // color: red;
-                position: relative;
                 margin-left: 2rem;
-
-
             }
 
-            .svg:first-child::after {
-                border: 2px solid red;
-                width: 1.7rem;
-                height: 20px;
-                background-color: rgb(0, 0, 0);
+            .svgDivider {
+                // border: 2px solid red;
+                width: .5px;
+                height: 23px;
+                background-color: rgba(255, 255, 255, 0.39);
                 display: inline-block;
-                content: "u";
+                content: "";
                 position: absolute;
-                left: 10px;
-                top: 0;
-                right: 0;
+                // left: 10px;
+                top: 16px;
+                right: 57px;
                 transition: all .2s;
             }
 
@@ -191,7 +187,7 @@
             // display: none;
             visibility: hidden;
             background-color: transparent;
-            margin-right: 4rem;
+            margin-right: 3rem;
         }
 
         .nav_button {
