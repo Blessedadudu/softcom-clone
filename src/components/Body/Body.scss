@@ -747,3 +747,136 @@
        }
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .body {
+         .experienceFlex {
+            display: flex;
+            flex-direction: column;
+            padding: 0rem 2rem 0 1rem;
+        }
+
+        .section-5 {
+            &__payment {
+                position: absolute;
+                top: 5rem;
+                z-index: 900;
+                text-align: left;
+                padding: 0 0 0 1rem;
+    
+                p {
+                    color: #080705;
+                    max-width: 100%;
+                    font-size: .6rem;
+                    line-height: 1.8;
+                    padding: 0 0 1rem 0;
+    
+                }
+    
+                h1 {
+                    color: #080705;
+                    line-height: 1.3925;
+                    font-size: 1rem;
+                    padding: 0 0 1rem 0;
+                }
+    
+                button {
+                    background-color: #c4702e;
+                    padding-right: 3.5rem;
+                    font-size: 12px;
+                    
+                    span {
+                        top: 5.5px;
+                        font-size: 20px;
+                    }
+    
+                    &:hover {
+                        background-color: #bd6726;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-height: 1024px) {
+
+    .body {
+        .bodyText {
+            padding: 3rem 1rem 0;
+        }
+        .experienceFlex {
+           display: flex;
+           flex-direction: row;
+           padding: 0 0 0 1rem;
+       }
+
+       .section-5 {
+        padding:  4rem 1rem; 
+
+
+        &__image-container {
+
+            height: 35vh;
+        }
+
+        &__payment {
+            position: absolute;
+            top: 9rem;
+            z-index: 900;
+            text-align: left;
+            padding: 0 0 0 2rem;
+
+            p {
+                color: #080705;
+                max-width: 100%;
+                font-size: .9rem;
+                line-height: 1.8;
+                padding: 0 0 1rem 0;
+
+            }
+
+            h1 {
+                color: #080705;
+                line-height: 1.3925;
+                font-size: 1.4rem;
+                padding: 0 0 1rem 0;
+            }
+
+            button {
+                background-color: #c4702e;
+                padding-right: 4rem;
+                
+                span {
+                    top: 3.2px;
+                }
+
+                &:hover {
+                    background-color: #bd6726;
+                }
+            }
+        }
+        
+        
+    } 
+    }
+}
+
+
+@media only screen and (min-height: 1336px) {
+
+    .body {
+        .bodyText {
+            padding: 3rem 1rem 0;
+        }
+
+        .bodycardGrid {
+            padding: 0 1rem 6rem ;
+        }
+    
+        .experienceFlex {
+           display: flex;
+           flex-direction: row;
+           padding: 0 0 0 1rem;
+       }
+    }
+}

@@ -408,6 +408,7 @@
             .fontArrow {
                 font-size: 2.1rem;
                 animation: bounce infinite 2s linear;
+                opacity: 0;
 
             }
 
@@ -450,6 +451,192 @@
             p {
 
             }
+        }
+    }
+}
+
+@media only screen and (min-height: 1024px) {
+    .header {
+        text-align: center;
+        height: 60vh;
+        overflow: hidden;
+
+        .scrollNav {
+            display: none;
+        }
+
+
+        .headerText {
+            height: 2rem;
+
+            .nav_button {
+                display: block;
+            }
+
+            .headerFlex {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+
+                .nav_dropdown {
+                    position: absolute;
+                    top: 2.5rem;
+                    left: .5rem;
+                    display: inline-block;
+                    background-color: #0097cd;
+                    border-radius: 5px;
+                    width: 350px;
+                    transition: all .2s ease-in-out;          
+
+                    ul {
+                        list-style: none;
+                        position: relative;
+
+                        &::after {
+                            content: '';
+                            width: 3rem;
+                            height: 1rem;
+                            background-color: #0097cd;
+                            position: absolute; 
+                            top: 6px;
+                            left: 3px;
+                            transform: rotate(45deg);
+                            z-index: -1;
+                        }
+
+
+                        li {
+                            padding: 1rem 1rem;
+                            text-align: left;
+                            transition: all .2s ease-in-out;
+                            cursor: pointer;
+                            
+                            &:hover {
+                                color: #ffb600;  
+                            }
+                        }
+
+                        li:first-child {
+                            color: #ffb600; 
+                        }
+
+
+
+                        li:not(:last-child) {
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                        }
+
+                    }
+                }
+
+                .sofcomSVG {
+                    width: 6rem;
+                }
+            }
+
+            .headerSVG {
+                color: white;
+                display: inline;
+            }
+
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                width: 80%;
+            }
+
+            .fontArrow {
+                font-size: 2.1rem;
+                animation: bounce infinite 2s linear;
+                opacity: 0;
+
+            }
+
+            .nav {
+                display: none;
+            }
+
+        }
+
+       
+        .nav_checkbox:checked ~ .nav_dropdown {
+            top: 3rem; 
+            opacity: 1;        
+        }
+    }
+
+}
+
+@media only screen and (min-height: 1336px) {
+    .header {
+        text-align: center;
+        height: 50vh;
+        overflow: hidden;
+
+        .headerText {
+            text-align: center;
+            padding: 1rem 0 0;
+    
+            .headerSVG {
+                display: none;
+                padding-right: 1.2rem;
+    
+                svg {
+                    margin-left: 2rem;
+                    transition: all .2s ease-in;
+                    cursor: pointer;
+    
+                    &:hover {
+                        color: #ffb600; 
+                    }
+    
+                    
+                }
+    
+                svg:first-child {
+                    margin-left: 2rem;
+                }
+    
+                .svgDivider {
+                    // border: 2px solid red;
+                    width: .5px;
+                    height: 23px;
+                    background-color: rgba(255, 255, 255, 0.39);
+                    display: inline-block;
+                    content: "";
+                    position: absolute;
+                    // left: 10px;
+                    top: 1px;
+                    right: 57px;
+                    transition: all .2s;
+                }
+    
+    
+                // &:not(:first-child) {
+                //     display: none;
+                // }
+            }
+    
+            h1 {
+                padding: 12.4rem 0 0;
+                font-size: 4.1rem;
+            }
+    
+            p {
+                width: 576px;
+                text-align: center;
+                margin: 0 auto;
+                font-size: 1.5rem;
+                padding: 1rem 0 13.7rem;
+                line-height: 1.9;
+            }
+    
+     
+           
         }
     }
 }
