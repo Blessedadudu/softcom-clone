@@ -163,12 +163,13 @@
             margin: 0 auto;
             font-size: .975rem;
             padding: 1rem 0 13.7rem;
+            line-height: 1.9;
         }
 
         .fontArrow {
             font-size: 2.1rem;
             animation: bounce infinite 2s linear;
-            margin-bottom: .85rem;
+            margin-bottom: -9px;
 
         }
 
@@ -353,7 +354,7 @@
                             width: 3rem;
                             height: 1rem;
                             background-color: #0097cd;
-                            position: absolute;
+                            position: absolute; 
                             top: 6px;
                             left: 3px;
                             transform: rotate(45deg);
@@ -433,6 +434,22 @@
         .banner { 
             transform: translateX(-10%);
             width: 220%;
+        }
+
+
+        .headerText {
+            text-align: center;
+            padding: 1rem 0 0;
+    
+    
+            h1 {
+                padding: 8.2rem 0 0;
+                font-size: 1.7rem;
+            }
+
+            p {
+
+            }
         }
     }
 }
