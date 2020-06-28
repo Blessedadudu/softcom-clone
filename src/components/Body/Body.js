@@ -39,7 +39,7 @@ const Body = () => {
                 <h2>Our Focus</h2>
                 <p>Following our work over the years, we have identified four key areas that would enable people and businesses thrive in Africa. Namely: Identity, Learning, Payment and Data.</p>
             </div>
-            <div className='bodycardGrid'>
+            <div className='bodycardGrid'>  
 
                 <>  
                     <div className='cards1 cardEyowo'>
