@@ -19,7 +19,7 @@ const Header = () => {
                     <label for="navi-toggle" className="nav_button">
                         <span className="iconz">&nbsp;</span>
                     </label>
-                      <div className='nav_dropdown'>
+                    <div className='nav_dropdown'>
                         <ul>
                             <li>Home</li>
                             <li>About</li>
@@ -28,8 +28,7 @@ const Header = () => {
                             <li>Contact Us</li>
                         </ul>
                     </div>
-
-                    {/* <div class="navigation__background">&nbsp;</div>  */}
+                    
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.52 50.72" className='sofcomSVG'>
                 <g>
                     <polygon points="104.22 16.29 104.22 16.29 104.23 16.29 104.22 16.29" ></polygon>
