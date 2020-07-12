@@ -40,6 +40,7 @@
         background-color: rgba(255, 255, 255, .9);
         display: flex;
         justify-content: space-between;
+        box-shadow: 2px 1px 10px rgb(184, 184, 184);
 
 
         
@@ -239,7 +240,7 @@
     
         .nav_checkbox:checked + .nav_button .iconz::before {
             top: 0;
-            transform: rotate(135deg);
+            transform: rotate(135deg); 
         }
     
         .nav_checkbox:checked + .nav_button .iconz::after {
